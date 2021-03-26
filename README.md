@@ -10,3 +10,6 @@ wind : use python to download data (wind 平台提供API接口给python 进行�
     import pandas as pd
     from datetime import timedelta, date
     w.start()
+    
+  
+   Wind’s authorized traffic is limited. When downloading too much, please download in batches, otherwise it will be detected as a malicious download by the background and will be restricted.//wind的授权流量是有限的，当下载的条目过多时，请分批下载，否则会被后台检测为恶意下载，会被限制。
